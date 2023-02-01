@@ -13,3 +13,9 @@ Project steps
 Problem statement
 
 Given a data set that contains N number of independent variables (input features), predict the carbon footprint (output feature). Based on the relation between the input features and the carbon footprint, provide some insights/tips on selecting/controlling the input features such that the carbon footprint can be reduced.  
+
+
+Challenges encountered
+
+1.
+2. 
