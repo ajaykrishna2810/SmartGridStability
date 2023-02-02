@@ -17,5 +17,12 @@ Given a data set that contains N number of independent variables (input features
 
 Challenges encountered
 
-- [ ]
-- [x]
+- [ ] Mercury
+- [x] Venus
+- [x] Earth (Orbit/Moon)
+- [x] Mars
+- [ ] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptune
+- [ ] Comet Haley
