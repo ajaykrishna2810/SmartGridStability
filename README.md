@@ -17,5 +17,5 @@ Given a data set that contains N number of independent variables (input features
 
 Challenges encountered
 
-1.
-2. 
+- [ ]
+- [x]
