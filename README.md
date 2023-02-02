@@ -18,5 +18,5 @@ Given a data set that contains N number of independent variables (input features
 Challenges encountered
 
 - [ ] Challenge 1
-- [x] Earth (Orbit/Moon)
+- [x] Challenge 2
 
