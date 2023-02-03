@@ -23,7 +23,8 @@ Challenges encountered
 Steps
 
 Step1 (Cleaning, food-versus-emission plot)
-- [ ] In df1, keep onle the 'total emissions' and drop the other specific emissions (for simplicity).
+- [ ] In df1, keep only the 'total emissions' and drop the other specific emissions (for simplicity).
+- - Create a new branch and work on that branch (e.g drop_columns)
 - [ ] Based on the rest of the columns in df1, plot the food versus emissions graph. Give the general idea, and then dive little bit deep into the components that contribute.
 - [ ] For food, keep the naming in df1 as the standard and then rename the 'item' column in df2 accordingly. If there are entries in df2['Items'] which do not fall into the food items in df1, kick them out. Expected table: Updated df2 with countries, food item produced and the corresponding emissions.
 
