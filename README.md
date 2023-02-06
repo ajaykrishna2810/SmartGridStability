@@ -1,5 +1,5 @@
 # OurAwesomeTeamProject
-A collaborative project on studying and modeling the effect of various variables on carbon footprint by using a data-driven machine-learning framework.
+A collaborative project on studying and modeling the effect of various parameters and variables on the stability of a smart power network by using a data-driven machine-learning framework.
 
 Project steps
 
@@ -12,31 +12,20 @@ Project steps
 
 Problem statement
 
-Given a data set that contains N number of independent variables (input features), predict the carbon footprint (output feature). Based on the relation between the input features and the carbon footprint, provide some insights/tips on selecting/controlling the input features such that the carbon footprint can be reduced.  
+Given a data set that contains N number of independent variables (input features), predict the instability value (output feature). Based on the relation between the input features and the stability value, provide some insights/tips on selecting/controlling the input features such that the insatbility issue may be reduced.  
 
+Back ground
 
-Challenges encountered
-
-- [ ] Challenge 1
-- [x] Challenge 2
+- [ ] Explain the problem and the parameters (\tau, p, g): create a slide explaining them
+- [ ] Explain what is stability
+- [ ] How can be evaluate the stability/instability basd on the input features? Motivate data-driven method
 
 Steps
 
-Step1 (Cleaning, food-versus-emission plot)
-- [ ] In df1, keep only the 'total emissions' and drop the other specific emissions (for simplicity).
- - Create a new branch and work on that branch (e.g drop_columns)
-- [ ] Based on the rest of the columns in df1, plot the food versus emissions graph. Give the general idea, and then dive little bit deep into the components that contribute.
-- [ ] For food, keep the naming in df1 as the standard and then rename the 'item' column in df2 accordingly. If there are entries in df2['Items'] which do not fall into the food items in df1, kick them out. Expected table: Updated df2 with countries, food item produced and the corresponding emissions.
-
-Step2 (Know where your food is coming from)
-- [ ] In the updated df2, plot countries versus food.
-
-Step3 (Prediction: country, food and emission)
-- [ ] Clean the updated df2 table.
-- [ ] Split the data set into train-test and input-output, where the output is the emission. And input feature X is [nation, food item]. Think about aggregating nations into a region for more high level explanation/plotting. 
-- [ ] Train our model, get the parameters which map X_train ---> Y_train. Then, for the test data (25%), predict Y_test from X_test.
-- [ ] Calculate the error/residual between the predicted Y_test and the actual Y_test. And plot them.
-- [ ] For the given food eaten, know where is comes from and know your emissions
-- [ ] Based on the previous step, think a way to decrease your emissions
-
-
+- [ ] Data cleaning: check for outliers, NaNs etc. Inspect the columns carefully
+- [ ] Specify the input and output feature clearly
+- [ ] Split the data into test-train
+- [ ] For the train data, plot the relationship between X_train and y_train; make a slide on that
+- [ ] For X_test, calculate y_test_predict using regression
+- [ ] Compare the results: Plot between y_test and y_test_predict
+ 
