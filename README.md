@@ -1,4 +1,4 @@
-# OurAwesomeTeamProject
+# Stability prediction in smart grids #
 A collaborative project on studying and modeling the effect of various parameters and variables on the stability of a smart power network by using a data-driven machine-learning framework.
 
 ## Project members ##
