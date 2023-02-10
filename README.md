@@ -17,6 +17,6 @@ Given a data set that contains n number of independent variables (input features
 
 -  What is stability?
 -  What are the input features?
--  How can we evaluate the stability/instability basd on the input features? 
+-  How can we evaluate the stability/instability based on the input features? 
 -  Can we predict stability with less number of input variables? 
 
