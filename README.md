@@ -11,7 +11,7 @@ Source paper: https://arxiv.org/pdf/1508.02217.pdf
 
 ## Problem statement ##
 
-Given a data set that contains N number of independent variables (input features), predict the instability value (output feature). Based on the relation between the input features and the stability value, provide some insights/tips on selecting/controlling the input features such that the insatbility issue may be reduced.  
+Given a data set that contains n number of independent variables (input features), predict the stability value (output feature). Based on the relation between the input features and the stability value, provide some insights/tips on selecting/controlling the input features such that the insatbility issue may be reduced.  
 
 ## Questions answered ##
 
